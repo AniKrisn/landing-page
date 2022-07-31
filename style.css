@@ -1,8 +1,18 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
 .header{
     display: flex;
-    flex: 1;
     justify-content: space-evenly;
-    margin: auto;
+    background-color: #1F2937;
+    align-items: center;
+}
+
+.title{
+    color:#F9FAf8;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .right-links{
@@ -11,6 +21,8 @@
 }
 
 ul, a {
+    color: #F9FAf8;
+    margin: 0;
     text-decoration: none;
     list-style: none;
 }
