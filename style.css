@@ -1,0 +1,16 @@
+.header{
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.right-links{
+    display: flex;
+    gap: 15px;
+}
+
+ul, a {
+    text-decoration: none;
+    list-style: none;
+}
