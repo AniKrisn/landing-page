@@ -46,7 +46,7 @@ html, body {
 
 .right-links {
     display: flex;
-    gap: 15px;
+    gap: 25px;
 }
 
 ul, a {
