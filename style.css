@@ -2,20 +2,36 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
-.header{
-    display: flex;
-    justify-content: space-evenly;
+.top {
     background-color: #1F2937;
+    color:#F9FAf8;
+}
+
+.header {
+    margin: 0px 300px 100px 300px;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
-.title{
-    color:#F9FAf8;
+.top .main {
+    margin-left: 300px;
+    margin-right: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-text {
+    width: 500px;
+}
+
+.title {
     font-size: 24px;
     font-weight: bold;
 }
 
-.right-links{
+.right-links {
     display: flex;
     gap: 15px;
 }
