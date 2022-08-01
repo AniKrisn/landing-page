@@ -1,5 +1,5 @@
 html, body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
 }
@@ -35,6 +35,10 @@ html, body {
     padding-bottom: 10px;
 }
 
+.description {
+    color: #e5e7eb9f;
+}
+
 .title {
     font-size: 24px;
     font-weight: bold;
@@ -53,6 +57,7 @@ ul, a {
 }
 
 .sign-up {
+    font-family:Georgia, 'Times New Roman', Times, serif;
     display: flex;
     background-color: #3882F6;
     border-radius: 10px;
@@ -62,4 +67,9 @@ ul, a {
     color: #F9FAf8;
     border: 0;
     margin-top: 15px;
+}
+
+.img-placeholder {
+    padding: 100px 125px 100px 125px;
+    background-color: #7f8998;
 }
