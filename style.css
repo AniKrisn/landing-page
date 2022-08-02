@@ -131,6 +131,9 @@ ul, a {
 
 .cta {
     padding: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .quote .quote-text {
@@ -145,14 +148,16 @@ ul, a {
     padding-left: 500px;
 }
 
-
 .cta .container {
-    padding: 80px;
+    padding: 60px 180px 60px 180px;
     display: flex;
+    background-color: #1F2937;
     justify-content: center;
     align-items: center;
-    background-color: #1F2937;
+    flex-direction: column;
 }
+
+
 
 
 
