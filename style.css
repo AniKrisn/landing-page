@@ -62,7 +62,7 @@ ul, a {
     background-color: #3882F6;
     border-radius: 10px;
     padding: 7px 30px 7px 30px;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: bold;
     color: #F9FAf8;
     border: 0;
@@ -129,13 +129,6 @@ ul, a {
     gap: 25px;
 }
 
-.cta {
-    padding: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .quote .quote-text {
     max-width: 750px;
     font-size: 36px;
@@ -148,16 +141,43 @@ ul, a {
     padding-left: 500px;
 }
 
-.cta .container {
-    padding: 60px 180px 60px 180px;
+.cta {
+    padding: 150px;
     display: flex;
-    background-color: #1F2937;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
 }
 
+.cta .container {
+    padding: 60px;
+    display: flex;
+    background-color: #1F2937;
+    align-items: center;
+    gap: 200px;
+    border-radius: 20px;
+}
 
+.cta .container .left-container .cta-text {
+    font-size: 28px;
+    color: #E5E7EB;
+    font-weight: bold;
+}
+
+.cta .container .left-container .cta-description {
+    font-size: 18px;
+    color:#7f8998;
+}
+
+.cta .container .right-container button {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    background-color:#E5E7EB;
+    border-radius: 10px;
+    padding: 7px 30px 7px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color:#1F2937;
+}
 
 
 
