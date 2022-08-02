@@ -98,6 +98,8 @@ ul, a {
     align-items: center;
     flex-flow: column wrap;
     flex-basis: 100%;
+    max-width: 800px;
+    margin: 0 25% 0 25%;
 }
 
 .information .container .img-box {
