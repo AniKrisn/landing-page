@@ -119,3 +119,28 @@ ul, a {
     text-align: center;
     flex-direction: column;
 }
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.cta {
+    padding: 150px;
+}
+
+.quote .quote-text {
+    max-width: 750px;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote .quote-name {
+    font-weight: bold;
+    font-size: 26px;
+    padding-left: 500px;
+}
