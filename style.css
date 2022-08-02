@@ -79,6 +79,10 @@ ul, a {
     flex: 1;
     justify-content: center;
     align-items: center;
+    font-size: 36px;
+    font-weight: bold;
+    padding: 50px;
+    color: #1F2937;
 }
 
 .information {
@@ -87,8 +91,15 @@ ul, a {
 }
 
 .information .container .img-box {
-    width: 200px;
+    width: 50px;
+    height: 50px;
     border: 1px #3882F6;
+    background-color: #1F2937;
     padding: 50px;
     margin: 20px;
+    border-radius: 20px;
+}
+
+.information .container {
+    padding-bottom: 100px;
 }
