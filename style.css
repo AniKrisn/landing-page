@@ -144,3 +144,15 @@ ul, a {
     font-size: 26px;
     padding-left: 500px;
 }
+
+
+.cta .container {
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+
+
